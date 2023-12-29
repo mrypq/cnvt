@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cnvt"
+version = "0.1.0"
+authors = ["mero <mrypq>"]
+
+[tool.setuptools.packages.find]
+exclude = ["build", "tests"]

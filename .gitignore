@@ -1,0 +1,36 @@
+__pycache__/
+*.py[cod]
+
+# tests and coverage
+*.pytest_cache
+.coverage
+test.py
+
+# database & logs
+*.db
+*.sqlite3
+*.log
+log
+migrations
+data/
+results
+
+# venv
+env
+venv
+*Env
+.env
+*conf.toml
+
+# other
+.DS_Store
+
+# build
+dist/
+*.egg-info
+build/
+
+# sphinx docs
+_build
+_static
+_templates
