@@ -5,7 +5,16 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "cnvt"
 version = "0.1.0"
-authors = ["mero <mrypq>"]
+authors = [{name="mero"}]
+
+dependencies = [
+    "typing_extensions",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
 
 [tool.setuptools.packages.find]
 exclude = ["build", "tests"]
